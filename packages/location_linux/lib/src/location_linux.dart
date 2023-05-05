@@ -1,4 +1,3 @@
-import 'dart:ui';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
@@ -59,7 +58,7 @@ class LocationLinux extends LocationPlatform {
       String? subtitle,
       String? description,
       Color? color,
-      bool? onTapBringToFront}) {
+      bool? onTapBringToFront,}) {
     // TODO: implement updateBackgroundNotification
     throw UnimplementedError();
   }

@@ -36,7 +36,7 @@ class _ServiceEnabledWidgetState extends State<ServiceEnabledWidget> {
         children: <Widget>[
           Text(
             'GPS enabled: ${_serviceEnabled ?? "unknown"}',
-            style: Theme.of(context).textTheme.bodyText1,
+            style: Theme.of(context).textTheme.bodyLarge,
           ),
           Row(
             children: <Widget>[
@@ -51,7 +51,7 @@ class _ServiceEnabledWidgetState extends State<ServiceEnabledWidget> {
           ),
           Text(
             'Service enabled: ${_networkEnabled ?? "unknown"}',
-            style: Theme.of(context).textTheme.bodyText1,
+            style: Theme.of(context).textTheme.bodyLarge,
           ),
           Row(
             children: <Widget>[

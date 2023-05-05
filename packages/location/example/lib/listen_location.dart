@@ -73,7 +73,7 @@ class _ListenLocationWidgetState extends State<ListenLocationWidget> {
                 '''
 Listen location: ${_location?.latitude}, ${_location?.longitude}
                 ''',
-            style: Theme.of(context).textTheme.bodyText1,
+            style: Theme.of(context).textTheme.bodyLarge,
           ),
           Row(
             children: <Widget>[
