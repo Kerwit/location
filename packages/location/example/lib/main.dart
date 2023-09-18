@@ -34,9 +34,9 @@ class MyHomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text(title!),
       ),
-      body: SingleChildScrollView(
+      body: const SingleChildScrollView(
         child: Column(
-          children: const <Widget>[
+          children: <Widget>[
             SizedBox(height: 16),
             PermissionStatusWidget(),
             Divider(height: 32),
